@@ -26,13 +26,14 @@ the documentation.
 
 ```
 perl font-joiner.pl < Examples/Beowulf.txt > Beowulf-joined.txt
-perl font-joiner.pl --encode UTF8 Examples/Beowulf.txt
+perl font-joiner.pl --encode utf8 Examples/Beowulf.txt
 perl font-joiner.pl --force Examples/Beowulf.txt
 ```
 
-The input text can be in most any character set. Only the Latin script
+The input text can be in most any encoding. Only the Latin script
 is supported by the Briem Handwriting font, though, so most files will
-be saved as UTF-8, UTF-16 or Latin-1.
+be saved as UTF-8, UTF-16 or Latin-1. Use `--decode=iso-8859-2` if
+you need to specify another encoding.
 
 The output will use the same encoding as the input if possible, or
 UTF-8 as a default.
