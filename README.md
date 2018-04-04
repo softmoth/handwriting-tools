@@ -16,7 +16,7 @@ See http://briem.net.
 
 Unix and Apple computers come with the program needed to run this
 script.
-Windows users will probably need to [install *Perl*](https://strawberryperl.com).
+Windows users will probably need to [install *Perl*](https://www.perl.org/get.html#win32).
 
 Save the `bin/font-joiner.pl` script, then open a command terminal
 (`CMD.EXE` on Windows) and type `perl font-joiner.pl --manual` to show
