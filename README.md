@@ -1,22 +1,22 @@
 Handwriting Tools
------------------
+=================
 
-Presently this is a commandline rewrite of the Joiner.jar application
-from [briem.net]. The end goal is to create an online tool for making
+Presently this is a commandline rewrite of the `joiner.jar` application
+from http://briem.net. The end goal is to create an online tool for making
 custom handwriting exercise sheets.
 
 Font Joiner
-===========
+-----------
 
 This tool inserts joining glyphs between letters, to create cursive
 writing when viewed with the supported font, Briem Handwriting.
-See [briem.net].
+See http://briem.net.
 
 ### Installing
 
 Unix and Apple computers come with the program needed to run this
 script.
-Windows users will probably need to [install `Perl`|strawberryperl.com].
+Windows users will probably need to [install *Perl*](strawberryperl.com).
 
 Save the `bin/font-joiner.pl` script, then open a command terminal
 (`CMD.EXE` on Windows) and type `perl font-joiner.pl --manual` to show
